@@ -1,0 +1,42 @@
+添加
+  appendChild
+  
+删除
+  removeChild
+  
+插入
+  insertBefore（内容，插入的对象）
+  
+替换
+  replaceChild（内容，插入的对象）
+  
+数组排序
+  arr.sort（function(a,b){
+     return a-b 升序
+     return b-a 降序
+  }）
+  
+
+express  node
+jquery   js
+
+
+.get('/二级菜单',function(){})
+
+.post('/二级菜单',function(){})
+
+.use('/二级菜单',function(){})
+
+
+.send()  综合的返回数据
+
+get
+   req.query()
+
+post
+   body-parser
+   req.body()
+中间件   处理 解析数据
+
+静态资源加载
+express-static
